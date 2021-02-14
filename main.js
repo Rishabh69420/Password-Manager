@@ -4,8 +4,6 @@ const BrowserWindow = electron.BrowserWindow;
 const path = require("path");
 const url = require("url");
 
-console.log(JSON.parse(data));
-
 console.log("does this work");
 
 let win;
