@@ -4,14 +4,15 @@ const BrowserWindow = electron.BrowserWindow;
 const path = require("path");
 const url = require("url");
 
-console.log("does this work");
-
 let win;
 
 function CreateWindow() {
     win = new BrowserWindow({
         width: 1280,
-        height: 720
+        height: 720,
+        webPreferences: {
+            nodeIntegration: true
+        }
     });
     win.loadURL(url.format({
         pathname: path.join(__dirname, "index.html"),
