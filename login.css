@@ -1,0 +1,96 @@
+
+    @font-face{
+        font-family: 'textgybold';
+        src: url(../Fonts/texgyreadventor-bold.otf) format('truetype');
+    }
+
+    @font-face{
+        font-family: 'textgy';
+        src: url(../Fonts/texgyreadventor-regular.otf) format('truetype');
+    }
+
+    @font-face{
+        font-family: 'cocomat';
+        src: url(../Fonts/Cocomat\ Light-trial.ttf) format('truetype');
+    }
+
+    html, body{
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: rgb(27, 27, 27);
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-family: textgybold;
+        background-image: linear-gradient(45deg, rgb(255, 174, 0), rgb(255, 30, 0));
+        padding-top: 8%;
+        font-size: 7vw;
+        width: 35%;
+        height: 100%;
+    }
+
+    .log {
+        border-color: white;
+        margin: auto;
+        padding: 0 20px 10px 20px;
+        font-size: 4vw;
+        background-image: linear-gradient(45deg, rgb(255, 174, 0), rgb(255, 30, 0));
+        background-color: black;
+        color: ivory;
+        align-self: center;
+        border-radius: 20px;
+        font-family: textgy;
+    }
+
+    .trans{
+        background-color: rgb(33, 33, 33);
+        padding-top: 2%;
+        padding: 10px 0 10px 0;
+        width: 65%;
+        height: 100%;
+        font-family: cocomat;
+        font-size: 1.7vw;
+    }
+
+    form label{
+        font-size: 2.5vw;
+        margin: 0 0 5px -18%;
+    }
+
+    .trans h1{
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .main{
+        color: rgb(223, 223, 194);
+        background-color: rgba(42,42,42,0);
+        display: flex;
+        flex-direction: row;
+        margin: 4% 5% 0 5%;
+        padding: 0;
+        border-radius: 3em;
+        overflow: hidden;
+        height: 85%;
+        box-shadow: 10px 10px 10px rgb(22, 22, 22);
+    }
+
+    input{
+        background-color: rgb(61, 61, 61);
+        border: none;
+        padding: 10px 15px 10px 15px;
+        font-size: 3vw;
+        border-radius: 10px;
+        outline: inherit;
+        color: ivory;
+        margin: 0 0 1em 0;
+    }
+
+    form{
+        text-align: center;
+    }
