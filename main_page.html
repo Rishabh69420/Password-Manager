@@ -8,17 +8,31 @@
     <title>Main Page</title>
 </head>
 <body>
+    <div class="main">
+        <div id="nav"></div>
+        <div id="min">
+            <button>-</button>
+        </div>
+        <div id="max">
+            <button>□</button>
+        </div>
+        <div id="close">
+            <button>x</button>
+        </div>
+    </div>
     <div class="out">
         <div class="side-bar" id="side-bar">
             KeyPass™
-            <hr class="top-line">
+            <hr class="top-line"><br>
+            <a href="index.html">Sign Out</a>
         </div>
         <div class="main-body">
             <div class="search">
                 <form>
                     <input type="text">
+                    <button class="search-button"><div id="magnifying-glass"></div></button>
                 </form>
-                <button onclick="ReadData()">+</button>
+                <button class="add" onclick="ReadData()">+</button>
             </div>
             <tag id="lol">
             </tag>
